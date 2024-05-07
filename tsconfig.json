@@ -12,6 +12,6 @@
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "Node"
   },
-  "include": ["src"],
+  "include": ["src", "cdk"],
   "exclude": []
 }

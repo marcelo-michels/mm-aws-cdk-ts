@@ -1,15 +1,6 @@
-# mm-node-ts
+# mm-aws-cdk-ts
 
-A basic Node JS template created with `npm create mm` for setup project with:
-
-- Typescript
-- Husky
-- Vitest
-- Prettier
-- Lint
-- VS Code Settings
-- Github Actions
-- Dependabot Updates (Github)
+A AWS CDK templante
 
 ## Usage
 
