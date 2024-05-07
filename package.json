@@ -1,0 +1,41 @@
+{
+  "name": "mm-node-ts",
+  "version": "1.0.0",
+  "description": "NodeJS template with typescript",
+  "main": "index.js",
+  "scripts": {
+    "check-nvm": "node scripts/check-nvm.js",
+    "dev": "npm run check-nvm && tsc --noEmit && tsx watch src/main.ts",
+    "build": "npm run check-nvm && tsc --noEmit && tsup src/",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky && npm run check-nvm",
+    "update-npm": "npx npm-check-updates",
+    "update-upstream": "node scripts/update-upstream.js"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Marcelo Michels",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.10",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "@vitest/coverage-v8": "^1.6.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
+    "tsx": "^4.9.3",
+    "typescript": "^5.4.5",
+    "vitest": "^1.4.0"
+  }
+}
