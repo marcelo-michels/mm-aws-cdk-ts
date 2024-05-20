@@ -31,7 +31,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.12.12",
-    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
     "@typescript-eslint/parser": "^7.9.0",
     "aws-cdk": "^2.142.1",
     "aws-cdk-lib": "^2.142.1",
