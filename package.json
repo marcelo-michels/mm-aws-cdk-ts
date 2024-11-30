@@ -30,7 +30,7 @@
   "author": "Marcelo Michels",
   "license": "MIT",
   "devDependencies": {
-    "aws-cdk": "^2.148.1",
+    "aws-cdk": "^2.171.1",
     "aws-cdk-lib": "^2.143.0",
     "constructs": "^10.3.0",
     "@types/node": "^22.10.1",
