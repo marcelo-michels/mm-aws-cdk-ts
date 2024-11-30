@@ -1,6 +1,6 @@
 # mm-aws-cdk-ts
 
-A AWS CDK templante
+A AWS CDK template
 
 ## Usage
 
